@@ -15,5 +15,6 @@ class Empresa extends Model
     'hdd',
     'ssd',
     'ram',
+    'mantenimiento',
 ];
 }

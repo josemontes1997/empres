@@ -38,7 +38,7 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'Mantenimientos',
+        text: 'Mante',
         align: 'left'
     },
     tooltip: {

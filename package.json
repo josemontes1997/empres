@@ -8,6 +8,7 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production"
+
     },
     "devDependencies": {
         "axios": "^0.21",
@@ -21,6 +22,7 @@
         "bootstrap": "^4.0.0",
         "chart.js": "^4.2.1",
         "datatables.net-dt": "^1.10.21",
+        "gh-pages": "^5.0.0",
         "izitoast": "^1.4.0",
         "jquery": "^3.2",
         "jquery.nicescroll": "^3.7.6",

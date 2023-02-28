@@ -11,10 +11,6 @@ class EmpresaController extends Controller
 
 
 
-    public function grafica()
-    {
-        return view('empresas.grafica');
-    }
     function __construct()
     {
         $this->middleware('permission:ver-empresa|crear-empresa|editar-empresa|borrar-empresa')->only('index');
@@ -73,6 +69,11 @@ class EmpresaController extends Controller
         //al usar esta paginacion, recordar poner en el el index.blade.php este codigo  {!! $empresas->links() !!}
     }
 
+
+    public function grafica()
+    {
+        return view('empresas.grafica');
+    }
     /**
      * Show the form for creating a new resource.
      *

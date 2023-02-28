@@ -18,7 +18,7 @@
     <thead style="background-color:#FF0000">  
                                                                      
                                     <th style="display: none;">ID</th>
-                                  <th style="color:#fff;">Usuario</th>
+                                <th style="color:#fff;">Usuario</th>
                                     <th style="color:#fff;">Tipo</th>                                    
                                     <th style="color:#fff;">Marca</th>
                                     <th style="color:#fff;">Modelo</th> 

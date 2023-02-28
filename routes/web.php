@@ -23,7 +23,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('empresas/pdf', [App\Http\Controllers\EmpresaController::class, 'pdf'])->name('empresas.pdf');
